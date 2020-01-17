@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+a. Express is like React but for the backend. 
+b. Express sits on top of the raw http server module provided by Node and add's extra functionality, like routing, and middleware support and a simpler API
+
+
 - [ ] Describe Middleware?
+
+Middleware provides a way to extend the features provided by the Express framework. They are implemented as small functions that handle one aspect of our application.
 
 - [ ] Describe a Resource?
 
+Everything is a resource when we are designing any RESTful Web API's.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API will return the data the client requested if the retrieval was successful. A 200 message.
+
 - [ ] How can we partition our application into sub-applications?
+
+ Just like we partition a React application to different components, we can do that with our backend as well by splitting them into different router endpoints. 
 
 ## Minimum Viable Product
 
